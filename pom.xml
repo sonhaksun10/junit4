@@ -379,10 +379,10 @@
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.1.1</version>
                 <configuration>
-					<!-- https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml -->
                     <configLocation>sun_checks.xml</configLocation>
                     <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
+					<failsOnViolation>false</failsOnViolation>
                     <failsOnError>false</failsOnError>
                     <linkXRef>false</linkXRef>
                 </configuration>
