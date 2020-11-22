@@ -419,7 +419,7 @@
 			    </execution>
 			    <execution>
 				    <id>post-unit-test</id>
-				    <phase?test</phase>
+				    <phase>test</phase>
 				    <goals>
 					    <goal>report</goal>
 				    </goals>
